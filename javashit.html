@@ -1,0 +1,22 @@
+﻿<html>
+  <head>
+    <script type="text/javascript">
+      /**
+       * Delay for a number of milliseconds
+       */
+      function sleep(delay) {
+        var start = new Date().getTime();
+        while (new Date().getTime() < start + delay);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Eureka!</h1>
+      <script type="text/javascript">
+        alert("Takk for ditt bidrig.");
+        sleep(5000)
+        alert("Returnerer til hovedsiden.");
+		window.location.href = 'index.html';
+      </script>
+  </body>
+</html>
